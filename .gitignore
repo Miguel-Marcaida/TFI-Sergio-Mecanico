@@ -1,0 +1,6 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+desktop.ini
+**/desktop.ini
+.DS_Store
