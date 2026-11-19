@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Sergio Mecánico - TPFI",
   description: "Sistema de Gestión Integral Automotriz",
+  appearance: "dark",
   themeConfig: {
     nav: [
       { text: "Inicio", link: "/" },
@@ -122,7 +123,13 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/Miguel-Marcaida/TFI-Sergio-Mecanico" },
     ],
+
+    footer: {
+      message: 'TPFI — Análisis de Sistemas de Información · Taller "Sergio" Mecánico',
+      copyright:
+        "Autores: Miguel Ángel Marcaida Marquez · Celeste Valentina Toledo · Facundo Agustín Sal",
+    },
   },
 });

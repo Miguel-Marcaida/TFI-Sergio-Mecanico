@@ -50,3 +50,11 @@ features:
 | **04 · Viabilidad** | [Ir a Informe de Viabilidad](/04-cierre-y-evidencias/informe-de-viabilidad) | Viabilidad técnica, económica y operacional, riesgos, Gantt y marco RUP |
 | **04 · Glosario y Diccionario** | [Ir a Glosario y Diccionario](/04-cierre-y-evidencias/glosario-y-diccionario) | Definiciones del dominio y estructura de entidades principales |
 | **04 · Cierre y Evidencias** | [Ir a Cierre y Anexos](/04-cierre-y-evidencias/cierre-bibliografia-y-anexos) | Conformidad del cliente, conclusión, bibliografía y evidencia de relevamiento |
+
+## Equipo de Trabajo — Grupo 3
+
+* **Miguel Ángel Marcaida Marquez**
+* **Celeste Valentina Toledo**
+* **Facundo Agustín Sal**
+
+> **Cátedra:** Análisis de Sistemas de Información · **Curso:** 2K5 · **Institución:** UTN — Facultad Regional Tucumán
