@@ -140,6 +140,11 @@ export default defineConfig({
       },
     ],
 
+    outline: {
+      label: "En esta página",
+       level: [2, 5] // Muestra h2, h3 y h4
+    },
+
     footer: {
       message:
         'TPFI — Análisis de Sistemas de Información · Taller "Sergio" Mecánico',

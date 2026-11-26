@@ -5,6 +5,9 @@ hero:
   name: "Taller 'Sergio' Mecánico"
   text: "TFI — Análisis de Sistemas"
   tagline: "Documentación y defensa del Trabajo Final Integrador · Grupo 3 · UTN FRT (2K5)"
+  image:
+    src: /images/exposicion/logo-taller.png
+    alt: Logo del Taller Sergio Mecánico
   actions:
     - theme: brand
       text: 🚀 Probar Prototipo Funcional
@@ -14,29 +17,36 @@ hero:
       link: https://www.figma.com/proto/NGoC7YZ0Fwf1nG232nZtSl/Prototipo-Sergio-Mecanico?node-id=19-789&t=zFeUaic3X8OkpTa6-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A789
     - theme: alt
       text: 📄 Descargar PDF Oficial
-      link: "/pdf/sergio-mecanico-tpfi.pdf"
+      link: /pdf/sergio-mecanico-tpfi.pdf
       target: _blank
 
 features:
-  - title: "⭐ Prototipo Funcional (Extra)"
+  - icon: ⭐
+    title: "Prototipo Funcional (Extra)"
     details: "Sistema interactivo que simula el flujo completo del negocio: Recepción → Mecánico → Administración → Entrega. (Proyecto adicional al TFI)."
     link: https://prototipo-tfi-sergio-mecanico.vercel.app/
-  - title: "1. Empresa y Visión"
+  - icon: 🏢
+    title: "1. Empresa y Visión"
     details: "Identidad del taller, alcance y límites, relevamiento AS-IS con diagramas BPD y visión general del sistema."
     link: /01-empresa-y-vision/
-  - title: "2. Reglas y Procesos"
+  - icon: ⚙️
+    title: "2. Reglas y Procesos"
     details: "Reglas de negocio y procesos automatizados del taller con sus diagramas BPD."
     link: /02-reglas-y-procesos/
-  - title: "3. Casos de Uso y UML"
+  - icon: 📊
+    title: "3. Casos de Uso y UML"
     details: "Diagrama general, fichas CU-01 a CU-09, modelo del dominio, secuencias, transición de estados de la OT y análisis."
     link: /03-casos-de-uso-y-uml/
-  - title: "4. Informe de Viabilidad"
+  - icon: 📈
+    title: "4. Informe de Viabilidad"
     details: "Viabilidad técnica, económica, operacional, matriz de riesgos, cronograma de 14 semanas y marco RUP."
     link: /04-cierre-y-evidencias/informe-de-viabilidad
-  - title: "5. Glosario y Diccionario de Datos"
+  - icon: 📚
+    title: "5. Glosario y Diccionario de Datos"
     details: "Términos clave del dominio del taller y síntesis de entidades y validaciones de datos."
     link: /04-cierre-y-evidencias/glosario-y-diccionario
-  - title: "6. Cierre, Bibliografía y Anexos"
+  - icon: ✅
+    title: "6. Cierre, Bibliografía y Anexos"
     details: "Constancia de conformidad firmada por el cliente, conclusión general, bibliografía y evidencia de registro manual."
     link: /04-cierre-y-evidencias/cierre-bibliografia-y-anexos
 ---
