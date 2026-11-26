@@ -29,17 +29,28 @@ export default defineConfig({
         ],
       },
       {
-        text: "Figma",
-        link: "https://www.figma.com/proto/NGoC7YZ0Fwf1nG232nZtSl/Prototipo-Sergio-Mecanico?node-id=19-789&t=zFeUaic3X8OkpTa6-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A789",
+        text: "Prototipos",
+        items: [
+          {
+            text: "Prototipo Funcional (Extra)",
+            link: "https://prototipo-tfi-sergio-mecanico.vercel.app/",
+            target: "_blank",
+            rel: "noopener",
+          },
+          {
+            text: "Prototipo Figma (Aprobado)",
+            link: "https://www.figma.com/proto/NGoC7YZ0Fwf1nG232nZtSl/Prototipo-Sergio-Mecanico?node-id=19-789&t=zFeUaic3X8OkpTa6-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A789",
+            target: "_blank",
+            rel: "noopener",
+          },
+        ],
+      },
+      {
+        text: "Descargar PDF",
+        link: "/pdf/sergio-mecanico-tpfi.pdf",
         target: "_blank",
         rel: "noopener",
       },
-      // {
-      //   text: "Descargar PDF",
-      //   link: "/docs/public/sergio-mecanico-tpfi.pdf",
-      //   target: "_blank",
-      //   rel: "noopener",
-      // },
     ],
 
     sidebar: [
@@ -123,11 +134,15 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/Miguel-Marcaida/TFI-Sergio-Mecanico" },
+      {
+        icon: "github",
+        link: "https://github.com/Miguel-Marcaida/TFI-Sergio-Mecanico",
+      },
     ],
 
     footer: {
-      message: 'TPFI — Análisis de Sistemas de Información · Taller "Sergio" Mecánico',
+      message:
+        'TPFI — Análisis de Sistemas de Información · Taller "Sergio" Mecánico',
       copyright:
         "Autores: Miguel Ángel Marcaida Marquez · Celeste Valentina Toledo · Facundo Agustín Sal",
     },

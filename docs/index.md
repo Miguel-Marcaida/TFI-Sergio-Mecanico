@@ -7,19 +7,20 @@ hero:
   tagline: "Documentación y defensa del Trabajo Final Integrador · Grupo 3 · UTN FRT (2K5)"
   actions:
     - theme: brand
-      text: "1. Empresa y Visión"
-      link: /01-empresa-y-vision/
+      text: 🚀 Probar Prototipo Funcional
+      link: https://prototipo-tfi-sergio-mecanico.vercel.app/
     - theme: alt
-      text: "2. Reglas y Procesos"
-      link: /02-reglas-y-procesos/
+      text: 🎨 Prototipo Figma (Aprobado)
+      link: https://www.figma.com/proto/NGoC7YZ0Fwf1nG232nZtSl/Prototipo-Sergio-Mecanico?node-id=19-789&t=zFeUaic3X8OkpTa6-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A789
     - theme: alt
-      text: "3. Casos de Uso y UML"
-      link: /03-casos-de-uso-y-uml/
-    - theme: alt
-      text: "4. Viabilidad"
-      link: /04-cierre-y-evidencias/informe-de-viabilidad
+      text: 📄 Descargar PDF Oficial
+      link: "/pdf/sergio-mecanico-tpfi.pdf"
+      target: _blank
 
 features:
+  - title: "⭐ Prototipo Funcional (Extra)"
+    details: "Sistema interactivo que simula el flujo completo del negocio: Recepción → Mecánico → Administración → Entrega. (Proyecto adicional al TFI)."
+    link: https://prototipo-tfi-sergio-mecanico.vercel.app/
   - title: "1. Empresa y Visión"
     details: "Identidad del taller, alcance y límites, relevamiento AS-IS con diagramas BPD y visión general del sistema."
     link: /01-empresa-y-vision/
